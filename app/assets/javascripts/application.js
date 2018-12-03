@@ -20,4 +20,6 @@
 //= require js/popper.min
 //= require js/bootstrap.min
 //= require js/common
+//= require highcharts
+//= require chartkick
 //= require_tree .

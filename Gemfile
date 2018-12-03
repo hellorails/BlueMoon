@@ -31,6 +31,11 @@ gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem "rename"
+gem 'simple_form'
+gem 'chartkick', '~> 1.4', '>= 1.4.1'
+gem 'groupdate'
+
+
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

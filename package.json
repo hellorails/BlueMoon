@@ -1,5 +1,7 @@
 {
   "name": "fertile",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "highcharts": "^6.2.0"
+  }
 }
