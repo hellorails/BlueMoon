@@ -1,0 +1,9 @@
+<% flash.each do |type, message| %>
+  <div class="alert <%= bootstrap_class_for(type) %> fade in double" >
+    <%= message %>
+  </div>
+<% end %>
+
+<style type="text/css">
+.double {border-style: double;}
+</style>

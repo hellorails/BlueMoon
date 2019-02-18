@@ -1,0 +1,2 @@
+class MetricDetailsController < ApplicationController
+end

@@ -14,6 +14,14 @@ module BlueMoon
     config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
+        #config.eager_load_paths += %W("#{config.root}/lib/chartkick")
+    config.paths.add Rails.root.join('lib').to_s, eager_load: true, auto_load: true
+    config.paths.add Rails.root.join('lib/chartkick.rb').to_s, eager_load: true, auto_load: true
+
+
+    # as an example of autoload only config
+    #config.paths.add Rails.root.join('domainpack').to_s, autoload: true
+
     #config.time_zone = 'Kolkata'
 
 

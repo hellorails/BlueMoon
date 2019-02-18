@@ -1,0 +1,2 @@
+class MetricViewContentsController < ApplicationController
+end
